@@ -62,7 +62,7 @@ light:
   name: gostinaya                  #required
   device_id: 0xB                       #required, hexadacimal value of MiLight id
   group_id: 2                             #required, 1-4 or 1-8, depending on remote type
-  remote_type: rgb_cct                    #required, possible values: rgb_cct, rgb, cct, rgbw, fut089, fut091, fut020
+  remote_type: cct                    #required, possible values: rgb_cct, rgb, cct, rgbw, fut089, fut091, fut020
   default_transition_length: 0s           #optional, but 0s gives a better behaviour instead the default 200ms
 # optional variables: all variables of ESPHome base light component
 
