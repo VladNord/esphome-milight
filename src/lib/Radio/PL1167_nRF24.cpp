@@ -17,9 +17,9 @@
 #include <RF24.h>
 
 #define MY_MISO 17
-#define MY_MOSI 4
-#define MY_SCLK 5
-#define MY_SS   16
+#define MY_MOSI 18
+#define MY_SCLK 16
+#define MY_SS   5
 
 static uint16_t calc_crc(uint8_t *data, size_t data_length);
 
