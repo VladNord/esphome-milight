@@ -29,8 +29,8 @@ wifi:
   fast_connect: true
 
 mi:
-  ce_pin: GPIO18                              #required, default: 4
-  csn_pin: GPIO16                             #required, default: 15
+  ce_pin: GPIO4                              #required, default: 4
+  csn_pin: GPIO5                             #required, default: 15
   reset_pin: 0                            #optional, default: 0, only needed with LT8900 radio
   radio_interface_type: nrf24             #optional, default: nrf24, possible values: nrf24,lt8900
   packet_repeats: 50                      #optional, default: 50
